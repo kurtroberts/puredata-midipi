@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/kurtroberts/puredata-midipi",
   "dependencies": {
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "gulp-shell": "^0.3.0"
   }
 }
