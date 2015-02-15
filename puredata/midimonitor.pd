@@ -1,0 +1,14 @@
+#N canvas 655 153 450 300 10;
+#X obj 83 20 midiin;
+#X obj 85 98 midiparse;
+#X obj -9 151 unpack;
+#X obj -46 227 print pitch;
+#X obj 69 235 print velocity;
+#X obj 136 155 print channel;
+#X obj 184 106 midiout;
+#X connect 0 0 1 0;
+#X connect 0 0 6 0;
+#X connect 1 0 2 0;
+#X connect 1 6 5 0;
+#X connect 2 0 3 0;
+#X connect 2 1 4 0;
